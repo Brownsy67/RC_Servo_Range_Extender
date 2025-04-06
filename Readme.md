@@ -8,12 +8,6 @@ I salvaged a couple Atemga8A's and have used those.
 
 1CH, 3CH, and 6CH versions.
 
-
-Video showing input(yellow) being mapped to output(purple). 
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Vm6HTiFYYLE/0.jpg)](https://www.youtube.com/watch?v=Vm6HTiFYYLE)
-
-
 !!!!!!!!!!!!!!!!!!!!!!!---------READ THIS----------!!!!!!!!!!!!!!!!!!!!!!!!
 
  I am kinda lazy, so I have not drawn up schematics or pictures with with exact wiring instructions(Currently working on this). Also,  I am considering that you know how you flash a sketch with the Arduino IDE. 
