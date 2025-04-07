@@ -8,7 +8,9 @@ I salvaged a couple Atemga8A's and have used those.
 
 1CH, 3CH, and 6CH versions.
 
-!!!!!!!!!!!!!!!!!!!!!!!---------READ THIS----------!!!!!!!!!!!!!!!!!!!!!!!!
+[Video of Mapping Input(yellow) to Output(Purple)](https://www.youtube.com/watch?v=Vm6HTiFYYLE&ab_channel=Brownsy67)
+
+<ins>**!!!!!!!!!!!!!!!!!!!!!!!---------READ THIS----------!!!!!!!!!!!!!!!!!!!!!!!!**</ins>
 
  I am kinda lazy, so I have not drawn up schematics or pictures with with exact wiring instructions(Currently working on this). Also,  I am considering that you know how you flash a sketch with the Arduino IDE. 
 
@@ -38,9 +40,9 @@ Global variables use 109 bytes (10%) of dynamic memory, leaving 915 bytes for lo
 ***
 
 
----------------Calibration Steps----------------
+**---------------Calibration Steps----------------**
 
-Do this with servo(s) disconnected. 
+***Do this with servo(s) disconnected.***
 
 The calibration order is CH1 - (3 or 6), MIN, then MAX, then finally MID, for each indiviual channel.
 
@@ -58,7 +60,7 @@ Calibration data will persist through power cycles and resets. You only need to 
 
 Calibration data persists on the EEPROM through firmware updates, you won't need to calibrate again after doing it once unless you change input devices. 
 
--------------------------------------------------
+**-------------------------------------------------**
 
 
 
