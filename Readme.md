@@ -22,7 +22,7 @@ You would wire every wire from the receiver to the Arduino or board, +/ and the 
 Compile and flash with the Arduino IDE, or PlatformIO in VSCode. 
 
 
-INPUT/OUTPUT PINS are at the top of each sketch/code along with the pin assignments for the Button and LED. The Sketch's for the Atmgea328P use the LED_BUILTIN attached to pin13, and for the Atmega32U4 TXLED IO30 is used, so a LED is not needed. You only need the LED (connected with a resistor) for the calibration process. It is not needed for normal operation.
+INPUT/OUTPUT PINS are at the top of each sketch/code along with the pin assignments for the Button and LED. The Sketch's for the Atmgea328P use the LED_BUILTIN attached to pin13, and for the Atmega32U4 TXLED IO30 is used, so a LED is not needed. You only need the LED (connected with a resistor) for the calibration process added to the Atmega8A. It is not needed for normal operation.
 
 If you are going to use a salvaged Atmega8A, I highly recommend making sure that you research the steps required to flash and use the MCU. I salvaged mine from some old crappy brushless ESC's for drones/airplanes. 
 *** You will get an error message when compiling these versions or the Atmega8A, ignore it, the firmware will still compile and flash. 
