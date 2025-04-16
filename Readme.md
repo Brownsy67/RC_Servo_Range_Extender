@@ -6,6 +6,10 @@ Takes an input PWM servo signal and maps it to the range of 500us-2500us with a 
 This is for use on Arduino NANO, UNO, MINI, MICRO, or Atmega8A. Any boards that use the Atmega328P, or the Atmega32U4. 
 I salvaged a couple Atemga8A's and have used those. 
 
+Arduino Nano, UNO, Pro Mini -> Atmega328P
+
+Arduino Pro Micro, Leonardo -> Atmega32U4   (Choose "Arduino Leonardo" as the board for both of these in the Arduino IDE)
+
 1CH, 3CH, and 6CH versions.
 
 [Video of Mapping Input(yellow) to Output(Purple)](https://www.youtube.com/watch?v=Vm6HTiFYYLE&ab_channel=Brownsy67)
